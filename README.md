@@ -19,4 +19,4 @@ Cài đặt pandas: Mở terminal và chạy lệnh sau đây để cài đặt 
 
 4.Tính toán các chỉ số thống kê
 
-5.Lưu kết quả điểm số vào file đầu ra.
+5.Lưu kết quả vào file đầu ra
