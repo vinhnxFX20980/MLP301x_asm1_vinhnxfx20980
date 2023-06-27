@@ -1,6 +1,12 @@
 # MLP301x_asm1_vinhnxfx20980
 **Tính toán và phân tích điểm thi (Test Grade Calculator)**
+## Cài đặt
+1.Cài đặt Python 
 
+2.Cài đặt numpy và pandas bằng cách chạy các lệnh sau trong Command Prompt hoặc Terminal:
+
+pip install numpy
+pip install pandas
 # Hướng dẫn sử dụng
 Đoạn mã này được viết để phân tích điểm thi cho một lớp học và tính toán các chỉ số thống kê của điểm. Đầu vào của đoạn mã là một file chứa thông tin về các câu trả lời của sinh viên. Đầu ra của đoạn mã là một file mới chứa danh sách mã số sinh viên và điểm số tương ứng.
 ## Cách sử dụng
