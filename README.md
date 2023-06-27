@@ -1,22 +1,31 @@
 # MLP301x_asm1_vinhnxfx20980
 **Tính toán và phân tích điểm thi (Test Grade Calculator)**
 
-## Hướng dẫn sử dụng
+# Hướng dẫn sử dụng
 Đoạn mã này được viết để phân tích điểm thi cho một lớp học và tính toán các chỉ số thống kê của điểm. Đầu vào của đoạn mã là một file chứa thông tin về các câu trả lời của sinh viên. Đầu ra của đoạn mã là một file mới chứa danh sách mã số sinh viên và điểm số tương ứng.
-## Cài đặt môi trường
-Để chạy được đoạn mã này, bạn cần cài đặt môi trường Python và thư viện pandas.
+## Cách sử dụng
+1.Nhập tên tập tin khi được yêu cầu
 
-Cài đặt pandas: Mở terminal và chạy lệnh sau đây để cài đặt thư viện pandas:
-`pip install pandas`
-## Chi tiết đoạn mã
-Để hiểu rõ hơn về cách hoạt động của đoạn mã này, bạn có thể xem các comment trong code để biết chi tiết từng bước. Tóm tắt các bước chính của đoạn mã như sau:
+2.Chương trình sẽ cố gắng mở tập tin đó như là tập tin văn bản và đọc nội dung của nó
 
-1.Đọc dữ liệu từ file đầu vào và lưu vào DataFrame của pandas
+3.Nếu tập tin được mở thành công, chương trình sẽ phân tích từng dòng dữ liệu để kiểm tra lỗi
 
-2.Phân tích từng dòng trong DataFrame để tìm các dòng bị lỗi và in kết quả phân tích ra màn hình
+4.Các dòng không hợp lệ sẽ bị loại bỏ khỏi tập dữ liệu và được đếm
 
-3.Tính điểm cho từng sinh viên dựa trên key đáp án
+5.Chương trình sẽ xuất số lượng dòng hợp lệ và không hợp lệ của dữ liệu
 
-4.Tính toán các chỉ số thống kê
+6.Chương trình sẽ tính điểm cho từng sinh viên dựa trên một đáp án chuẩn
 
-5.Lưu kết quả vào file đầu ra
+7.Chương trình sẽ xuất thống kê về các điểm số, bao gồm điểm trung bình, điểm cao nhất, điểm thấp nhất, phạm vi và trung vị
+
+8.Cuối cùng, chương trình sẽ lưu các ID sinh viên và điểm số tương ứng vào một tập tin văn bản mới
+## Yêu cầu
+Đoạn code yêu cầu một tập tin văn bản với định dạng các giá trị phân tách bằng dấu phẩy (CSV). Mỗi dòng trong tập tin đại diện cho câu trả lời của một sinh viên cho một bài kiểm tra trắc nghiệm. Giá trị đầu tiên trên mỗi dòng là ID của sinh viên, theo sau là 26 giá trị đại diện cho câu trả lời của họ cho các câu hỏi
+## Lưu ý
+1.Tập tin dữ liệu phải có định dạng chuẩn theo các yêu cầu đã nêu ở trên. Nếu không, chương trình có thể không hoạt động đúng
+
+2.Các lỗi trong tập tin dữ liệu sẽ bị loại bỏ khỏi tập dữ liệu và không được tính vào kết quả cuối cùng
+
+3.Chương trình chỉ tính điểm cho các câu trả lời đúng, không tính điểm cho các câu trả lời sai hoặc không trả lời
+## Đóng góp
+Nếu bạn phát hiện bất kỳ lỗi nào trong đoạn mã hoặc có ý kiến ​​đóng góp. Chân thành cảm ơn sự đóng góp của bạn!
