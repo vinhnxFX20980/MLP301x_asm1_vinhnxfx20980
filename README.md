@@ -11,11 +11,15 @@
 # Hướng dẫn sử dụng
 Đoạn mã này được viết để phân tích điểm thi cho một lớp học và tính toán các chỉ số thống kê của điểm. Đầu vào của đoạn mã là một file chứa thông tin về các câu trả lời của sinh viên. Đầu ra của đoạn mã là một file mới chứa danh sách mã số sinh viên và điểm số tương ứng.
 ## Cách sử dụng
-1.Khi chạy chương trình sẽ hiển thị Enter a filename:, bạn nhập tên file là class1 (nếu file python nằm cùng folder file class1, nếu khác folder thì phải nhập cả đường dẫn)
+1.Mở terminal hoặc command prompt và di chuyển đến thư mục chứa file mã nguồn.
 
-Nếu hiển thị Successfully opened class1.txt thì bạn đã nhập đúng, nếu sai sẽ hiển thị File cannot be found. Và bạn phải nhập lại tên file
+nhập vào ```python <tên_file.py>``` nhấn Enter và chương trình bắt đầu chạy
 
-2.Sau khi chương trình đọc tệp tin thành công, nó sẽ thực hiện phân tích dữ liệu và in ra các kết quả, bao gồm số lượng dòng hợp lệ và không hợp lệ, điểm số trung bình, điểm số cao nhất, điểm số thấp nhất, khoảng điểm và điểm số trung vị. Hiển thị như sau:
+2.Khi chạy chương trình sẽ hiển thị Enter a filename: bạn nhập tên file là class1 (nếu file python nằm cùng folder file class1, nếu khác folder thì phải nhập cả đường dẫn)
+
+Nếu hiển thị Successfully opened class1.txt thì bạn đã nhập đúng, nếu sai sẽ hiển thị File cannot be found và bạn phải nhập lại tên file
+
+3.Sau khi chương trình đọc tệp tin thành công, nó sẽ thực hiện phân tích dữ liệu và in ra các kết quả, bao gồm số lượng dòng hợp lệ và không hợp lệ, điểm số trung bình, điểm số cao nhất, điểm số thấp nhất, khoảng điểm và điểm số trung vị. Hiển thị như sau:
 
 **** ANALYZING ****
 
@@ -51,7 +55,7 @@ Range of scores: 34
 
 Median score: 76.0
 
-3.Cuối cùng, chương trình sẽ lưu các ID sinh viên và điểm số tương ứng vào một file mới có nội dung chứa ID học sinh và điểm như ví dụ sau:
+4.Cuối cùng, chương trình sẽ lưu các ID sinh viên và điểm số tương ứng vào một file mới có nội dung chứa ID học sinh và điểm như ví dụ sau:
 
 N00000001,59
 
@@ -65,4 +69,4 @@ N00000002,70
 
 3.Chương trình chỉ tính điểm cho các câu trả lời đúng, không tính điểm cho các câu trả lời sai hoặc không trả lời
 ## Đóng góp
-Nếu bạn phát hiện bất kỳ lỗi nào trong đoạn mã hoặc có ý kiến ​​đóng góp. Chân thành cảm ơn sự đóng góp của bạn!
+Nếu bạn phát hiện bất kỳ lỗi nào trong đoạn mã hoặc có ý kiến ​​đóng góp hãy liên hệ tôi. Chân thành cảm ơn sự đóng góp của bạn!
