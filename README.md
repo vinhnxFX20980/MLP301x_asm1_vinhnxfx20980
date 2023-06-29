@@ -1,5 +1,5 @@
 # MLP301x_asm1_vinhnxfx20980
-**Tính toán và phân tích điểm thi (Test Grade Calculator)**
+# Tính toán và phân tích điểm thi (Test Grade Calculator)
 # Cài đặt
 1.Cài đặt Python 
 
